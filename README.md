@@ -1,0 +1,2 @@
+# RouteProvider
+Here’s thecode snipet for the routeResolver provider as well as a routeConfig object used to configure view and controller directories. The code starts by defining a new AngularJS module named routeResolverServices. A provider was chosen (as opposed to a service or factory) because the routeResolver needs to be injected into the config() function of a given application’s module (in mifosX.js for example). The config() function uses the routeResolver to define the routes based on a given conventions.
